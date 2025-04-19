@@ -1,7 +1,29 @@
 #container {
-    border: solid red ;
     box-sizing: border-box;
-    margin: 88px 80px 137px;
+    margin: 88px auto 137px;
     width: 1120px;
-    background-position: center;
 }
+
+p strong {
+    color: red;
+    font-family: bold;
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 8px;
+    
+}
+
+#titulo-lista {
+    padding: 64px 0;
+}
+
+ol {
+    background-position: center;
+    padding-left: 0;
+    
+}
+ 
