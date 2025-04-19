@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 #container {
     box-sizing: border-box;
     margin: 88px auto 137px;
     width: 1120px;
+}
+
+#divisor {
+    border: 1px solid #D9D9D9;
+    width: 1120px;
+    
 }
 
 p strong {
@@ -14,11 +26,27 @@ p strong {
 h1 {
     font-size: 48px;
     margin-top: 8px;
-    
+
+}
+
+h2 {
+    padding: 2px 0 8px;
+    font-size: 36px;
 }
 
 #titulo-lista {
     padding: 64px 0;
+}
+
+#imagem-descriçao {
+    padding: 40px 0;
+
+}
+
+#imagem-descriçao p {
+    padding-top: 24px;
+    font-style: italic;
+    text-align: center;
 }
 
 ol {
